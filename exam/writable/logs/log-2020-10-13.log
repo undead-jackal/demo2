@@ -1,0 +1,26 @@
+CRITICAL - 2020-10-13 18:20:13 --> include(modale.php): failed to open stream: No such file or directory
+#0 E:\janu.codingfork\app\Views\content\order\ordering.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modale....', 'E:\\janu.codingf...', 25, Array)
+#1 E:\janu.codingfork\app\Views\content\order\ordering.php(25): include()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/order/o...', Array, true)
+#4 E:\janu.codingfork\app\Controllers\BaseController.php(57): view('content/order/o...', Array)
+#5 E:\janu.codingfork\app\Controllers\Order.php(14): App\Controllers\BaseController->loadLayout('content/order/o...', Array, true)
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->index()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-13 18:20:13 --> include(modale.php): failed to open stream: No such file or directory
+#0 E:\janu.codingfork\app\Views\content\order\ordering.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modale....', 'E:\\janu.codingf...', 25, Array)
+#1 E:\janu.codingfork\app\Views\content\order\ordering.php(25): include()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/order/o...', Array, true)
+#4 E:\janu.codingfork\app\Controllers\BaseController.php(57): view('content/order/o...', Array)
+#5 E:\janu.codingfork\app\Controllers\Order.php(14): App\Controllers\BaseController->loadLayout('content/order/o...', Array, true)
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->index()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}

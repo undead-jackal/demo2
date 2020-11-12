@@ -1,0 +1,147 @@
+CRITICAL - 2020-10-14 00:03:36 --> Call to undefined function App\Controllers\getData()
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->viewProducts()
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#5 {main}
+CRITICAL - 2020-10-14 08:58:27 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\janu.codingf...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#9 {main}
+CRITICAL - 2020-10-14 08:58:42 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\janu.codingf...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#9 {main}
+CRITICAL - 2020-10-14 08:58:46 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\janu.codingf...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#9 {main}
+CRITICAL - 2020-10-14 08:59:13 --> syntax error, unexpected 'return' (T_RETURN)
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\janu.codingf...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#9 {main}
+CRITICAL - 2020-10-14 12:49:13 --> Trying to get property 'id' of non-object
+#0 E:\janu.codingfork\app\Controllers\Cart.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\janu.codingf...', 49, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:24:22 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:31:04 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:47:23 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:48:47 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:49:02 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:49:29 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:53:52 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:56:51 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:57:03 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 13:59:08 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-14 16:22:24 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\Cart.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 43, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}

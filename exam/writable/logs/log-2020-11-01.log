@@ -1,0 +1,357 @@
+CRITICAL - 2020-11-01 10:46:16 --> Cannot redeclare App\Controllers\Home::contact()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-01 10:47:00 --> Invalid file: email_template/contact.php
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email_template/...')
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('email_template/...', Array, true)
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(23): view('email_template/...')
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-01 10:47:15 --> Invalid file: email_template/contact.php
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email_template/...')
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('email_template/...', Array, true)
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(23): view('email_template/...')
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-01 10:47:47 --> Invalid file: email_templatea/contact.php
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email_templatea...')
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('email_templatea...', Array, true)
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(23): view('email_templatea...')
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-01 10:47:57 --> file_get_contents(&lt;!-- DEBUG-VIEW START 1 APPPATH/Config/../Views/email_templates/contact.php --&gt;
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-GB&quot;&gt;
+&lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+    &lt;title&gt;Demystifying Email Design&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://codingfork.com/resource/fonts/fonts.css&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        a[x-apple-data-detectors] {color: inherit !important;}
+        body table{font-family:norwester!important}
+    &lt;/style&gt;
+
+&lt;/head&gt;
+&lt;body style=&quot;margin: 0; padding: 0;&quot;&gt;
+    &lt;table role=&quot;presentation&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;padding: 20px 0 30px 0;&quot;&gt;
+              &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;600&quot; style=&quot;border-collapse: collapse; border: 1px solid #cccccc;&quot;&gt;
+                  &lt;tr&gt;
+                      &lt;td align=&quot;center&quot; bgcolor=&quot;#70bbd9&quot; style=&quot;padding: 0px 0 0px 0;&quot;&gt;
+                          &lt;img src=&quot;https://codingfork.com/resource/image/10.png&quot; alt=&quot;Janu Email Magic.&quot; width=&quot;598&quot; height=&quot;336&quot; style=&quot;display: block;&quot; /&gt;
+                      &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                      &lt;td bgcolor=&quot;#ffffff&quot; style=&quot;padding: 40px 30px 40px 30px;&quot;&gt;
+                          &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;border-collapse: collapse;&quot;&gt;
+                              &lt;tr&gt;
+                                  &lt;td style=&quot;color: #153643; font-family: Arial, sans-serif;&quot;&gt;
+                                      &lt;h1 style=&quot;font-size: 24px; margin: 0;&quot;&gt;Here's a message from : &lt;b&gt;%user%&lt;/b&gt;&lt;/h1&gt;
+                                  &lt;/td&gt;
+                              &lt;/tr&gt;
+                              &lt;tr&gt;
+                                  &lt;td style=&quot;color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0;&quot;&gt;
+                                      &lt;p style=&quot;margin: 0;&quot;&gt;%msg%&lt;/p&gt;
+                                  &lt;/td&gt;
+                              &lt;/tr&gt;
+
+                          &lt;/table&gt;
+                      &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                      &lt;td bgcolor=&quot;#70bbd9&quot; style=&quot;padding: 30px 30px;&quot;&gt;
+                          &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;border-collapse: collapse;&quot;&gt;
+                              &lt;tr&gt;
+                                  &lt;td style=&quot;color: #000000; font-family: Arial, sans-serif; font-size: 14px;&quot;&gt;
+                                      &lt;p style=&quot;margin: 0;&quot;&gt;2020&lt;br/&gt;Sent on: %date% &lt;br&gt;Sent by: %name% &lt;/p&gt;
+                                  &lt;/td&gt;
+
+                              &lt;/tr&gt;
+                          &lt;/table&gt;
+                      &lt;/td&gt;
+                  &lt;/tr&gt;
+              &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- DEBUG-VIEW ENDED 1 APPPATH/Config/../Views/email_templates/contact.php --&gt;
+): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/u16954907...', 23, Array)
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(23): file_get_contents('<!-- DEBUG-VIEW...')
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-01 10:48:31 --> Class 'App\Controllers\PHPMailer' not found
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-01 10:57:17 --> Class 'App\Controllers\PHPMailer' not found
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-01 10:57:42 --> Class 'App\Controllers\PHPMailer' not found
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-01 11:05:11 --> Class 'App\Controllers\PHPMailer' not found
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-01 11:05:33 --> Class 'App\Controllers\PHPMailer' not found
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-01 11:13:38 --> Class 'App\Controllers\PHPMailer' not found
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-01 11:15:54 --> Class 'App\Controllers\PHPMailer' not found
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-01 11:16:08 --> Class 'App\Controllers\PHPMailer' not found
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-01 11:18:16 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-01 11:18:35 --> App\Controllers\Home::sendEmail(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-01 11:21:03 --> file_get_contents(&lt;!-- DEBUG-VIEW START 1 APPPATH/Config/../Views/email_templates/contact.php --&gt;
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-GB&quot;&gt;
+&lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+    &lt;title&gt;Demystifying Email Design&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://codingfork.com/resource/fonts/fonts.css&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        a[x-apple-data-detectors] {color: inherit !important;}
+        body table{font-family:norwester!important}
+    &lt;/style&gt;
+
+&lt;/head&gt;
+&lt;body style=&quot;margin: 0; padding: 0;&quot;&gt;
+    &lt;table role=&quot;presentation&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;padding: 20px 0 30px 0;&quot;&gt;
+              &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;600&quot; style=&quot;border-collapse: collapse; border: 1px solid #cccccc;&quot;&gt;
+                  &lt;tr&gt;
+                      &lt;td align=&quot;center&quot; bgcolor=&quot;#70bbd9&quot; style=&quot;padding: 0px 0 0px 0;&quot;&gt;
+                          &lt;img src=&quot;https://codingfork.com/resource/image/10.png&quot; alt=&quot;Janu Email Magic.&quot; width=&quot;598&quot; height=&quot;336&quot; style=&quot;display: block;&quot; /&gt;
+                      &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                      &lt;td bgcolor=&quot;#ffffff&quot; style=&quot;padding: 40px 30px 40px 30px;&quot;&gt;
+                          &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;border-collapse: collapse;&quot;&gt;
+                              &lt;tr&gt;
+                                  &lt;td style=&quot;color: #153643; font-family: Arial, sans-serif;&quot;&gt;
+                                      &lt;h1 style=&quot;font-size: 24px; margin: 0;&quot;&gt;Here's a message from : &lt;b&gt;%user%&lt;/b&gt;&lt;/h1&gt;
+                                  &lt;/td&gt;
+                              &lt;/tr&gt;
+                              &lt;tr&gt;
+                                  &lt;td style=&quot;color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0;&quot;&gt;
+                                      &lt;p style=&quot;margin: 0;&quot;&gt;%msg%&lt;/p&gt;
+                                  &lt;/td&gt;
+                              &lt;/tr&gt;
+
+                          &lt;/table&gt;
+                      &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                      &lt;td bgcolor=&quot;#70bbd9&quot; style=&quot;padding: 30px 30px;&quot;&gt;
+                          &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;border-collapse: collapse;&quot;&gt;
+                              &lt;tr&gt;
+                                  &lt;td style=&quot;color: #000000; font-family: Arial, sans-serif; font-size: 14px;&quot;&gt;
+                                      &lt;p style=&quot;margin: 0;&quot;&gt;2020&lt;br/&gt;Sent on: %date% &lt;br&gt;Sent by: %name% &lt;/p&gt;
+                                  &lt;/td&gt;
+
+                              &lt;/tr&gt;
+                          &lt;/table&gt;
+                      &lt;/td&gt;
+                  &lt;/tr&gt;
+              &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- DEBUG-VIEW ENDED 1 APPPATH/Config/../Views/email_templates/contact.php --&gt;
+): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/u16954907...', 28, Array)
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(28): file_get_contents('<!-- DEBUG-VIEW...')
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-01 11:21:36 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/u16954907...')
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-01 11:21:57 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/u16954907...')
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-01 11:22:10 --> file_get_contents(&lt;!-- DEBUG-VIEW START 1 APPPATH/Config/../Views/email_templates/contact.php --&gt;
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-GB&quot;&gt;
+&lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+    &lt;title&gt;Demystifying Email Design&lt;/title&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://codingfork.com/resource/fonts/fonts.css&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        a[x-apple-data-detectors] {color: inherit !important;}
+        body table{font-family:norwester!important}
+    &lt;/style&gt;
+
+&lt;/head&gt;
+&lt;body style=&quot;margin: 0; padding: 0;&quot;&gt;
+    &lt;table role=&quot;presentation&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;padding: 20px 0 30px 0;&quot;&gt;
+              &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;600&quot; style=&quot;border-collapse: collapse; border: 1px solid #cccccc;&quot;&gt;
+                  &lt;tr&gt;
+                      &lt;td align=&quot;center&quot; bgcolor=&quot;#70bbd9&quot; style=&quot;padding: 0px 0 0px 0;&quot;&gt;
+                          &lt;img src=&quot;https://codingfork.com/resource/image/10.png&quot; alt=&quot;Janu Email Magic.&quot; width=&quot;598&quot; height=&quot;336&quot; style=&quot;display: block;&quot; /&gt;
+                      &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                      &lt;td bgcolor=&quot;#ffffff&quot; style=&quot;padding: 40px 30px 40px 30px;&quot;&gt;
+                          &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;border-collapse: collapse;&quot;&gt;
+                              &lt;tr&gt;
+                                  &lt;td style=&quot;color: #153643; font-family: Arial, sans-serif;&quot;&gt;
+                                      &lt;h1 style=&quot;font-size: 24px; margin: 0;&quot;&gt;Here's a message from : &lt;b&gt;%user%&lt;/b&gt;&lt;/h1&gt;
+                                  &lt;/td&gt;
+                              &lt;/tr&gt;
+                              &lt;tr&gt;
+                                  &lt;td style=&quot;color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 20px 0 30px 0;&quot;&gt;
+                                      &lt;p style=&quot;margin: 0;&quot;&gt;%msg%&lt;/p&gt;
+                                  &lt;/td&gt;
+                              &lt;/tr&gt;
+
+                          &lt;/table&gt;
+                      &lt;/td&gt;
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+                      &lt;td bgcolor=&quot;#70bbd9&quot; style=&quot;padding: 30px 30px;&quot;&gt;
+                          &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;border-collapse: collapse;&quot;&gt;
+                              &lt;tr&gt;
+                                  &lt;td style=&quot;color: #000000; font-family: Arial, sans-serif; font-size: 14px;&quot;&gt;
+                                      &lt;p style=&quot;margin: 0;&quot;&gt;2020&lt;br/&gt;Sent on: %date% &lt;br&gt;Sent by: %name% &lt;/p&gt;
+                                  &lt;/td&gt;
+
+                              &lt;/tr&gt;
+                          &lt;/table&gt;
+                      &lt;/td&gt;
+                  &lt;/tr&gt;
+              &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;!-- DEBUG-VIEW ENDED 1 APPPATH/Config/../Views/email_templates/contact.php --&gt;
+): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/u16954907...', 28, Array)
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(28): file_get_contents('<!-- DEBUG-VIEW...')
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-01 11:23:15 --> Invalid file: email_templates/contact.php
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('email_templates...')
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('email_templates...', Array, true)
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(25): view('email_templates...')
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-01 11:24:25 --> file_get_contents(../email_templates/contact.html): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/u16954907...', 27, Array)
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(27): file_get_contents('../email_templa...')
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-01 11:24:44 --> file_get_contents(../Views/email_templates/contact.html): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/u16954907...', 27, Array)
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(27): file_get_contents('../Views/email_...')
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-01 11:27:36 --> file_get_contents(http://janu.codingfork.com/Views/email_templates/contact.html): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/u16954907...', 27, Array)
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/app/Controllers/Home.php(27): file_get_contents('http://janu.cod...')
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-01 11:36:43 --> Call to undefined method App\Controllers\Home::respond()
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-01 11:37:19 --> Call to undefined method App\Controllers\Home::respond()
+#0 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->sendEmail()
+#1 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/janu/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u169549071/domains/codingfork.com/public_html/subdomain-janu/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

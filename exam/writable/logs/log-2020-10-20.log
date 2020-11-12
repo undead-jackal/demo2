@@ -1,0 +1,21 @@
+CRITICAL - 2020-10-20 15:56:34 --> Undefined offset: 0
+#0 E:\janu.codingfork\app\Controllers\Ordering\Cart.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\janu.codingf...', 24, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ordering\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ordering\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-20 15:57:59 --> Table 'portfolio_db.exam' doesn't exist
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ex...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(62): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\janu.codingfork\app\Controllers\demo3\ExamCreator.php(25): App\Models\CoreModel->insertData(Array, 'exam')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\demo3\ExamCreator->addExam()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\demo3\ExamCreator))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}

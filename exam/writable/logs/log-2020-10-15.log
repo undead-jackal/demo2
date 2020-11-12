@@ -1,0 +1,169 @@
+CRITICAL - 2020-10-15 20:24:16 --> Undefined offset: 0
+#0 E:\janu.codingfork\app\Controllers\Order.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\janu.codingf...', 47, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->saveOrder()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-15 20:32:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`name, cart`.`price, item`.`description, item`.`short_desc, cart`.`quantity,...' at line 1
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `cart`.`...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cart`.`...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cart`.`...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\janu.codingfork\app\Controllers\Order.php(54): App\Models\CoreModel->getData(Array, 'cart')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->saveOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-15 20:33:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`name, cart`.`price, item`.`description, item`.`short_desc, cart`.`quantity,...' at line 1
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `cart`.`...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cart`.`...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cart`.`...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\janu.codingfork\app\Controllers\Order.php(54): App\Models\CoreModel->getData(Array, 'cart')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->saveOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-15 20:36:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`item_id,`
+FROM `cart`
+JOIN `item` ON `item`.`id` = `cart`.`item_id`
+WHERE `...' at line 1
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `cart`.`...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cart`.`...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cart`.`...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\janu.codingfork\app\Controllers\Order.php(54): App\Models\CoreModel->getData(Array, 'cart')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->saveOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-15 20:36:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`item_id`
+FROM `cart`
+JOIN `item` ON `item`.`id` = `cart`.`item_id`
+WHERE `c...' at line 1
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `cart`.`...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cart`.`...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cart`.`...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\janu.codingfork\app\Controllers\Order.php(54): App\Models\CoreModel->getData(Array, 'cart')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->saveOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-15 20:36:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`item_id`
+FROM `cart`
+JOIN `item` ON `item`.`id` = `cart`.`item_id`
+WHERE `c...' at line 1
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `cart`.`...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `cart`.`...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `cart`.`...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `cart`.`...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\janu.codingfork\app\Controllers\Order.php(54): App\Models\CoreModel->getData(Array, 'cart')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->saveOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-15 20:44:09 --> syntax error, unexpected '=', expecting ')'
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\janu.codingf...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#9 {main}
+CRITICAL - 2020-10-15 20:44:35 --> syntax error, unexpected ','
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\janu.codingf...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#9 {main}
+CRITICAL - 2020-10-15 20:49:44 --> Unknown column 'fullname' in 'field list'
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sa...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(62): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\janu.codingfork\app\Controllers\Order.php(68): App\Models\CoreModel->insertData(Array, 'sales')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->saveOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-15 20:50:47 --> Column 'fullname' cannot be null
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `sa...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(62): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\janu.codingfork\app\Controllers\Order.php(68): App\Models\CoreModel->insertData(Array, 'sales')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->saveOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-15 21:11:31 --> Unknown column 'status' in 'where clause'
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\janu.codingfork\app\Controllers\Order.php(85): App\Models\CoreModel->getData(Array, 'sales')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->viewOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-15 21:14:36 --> Unknown column 'status' in 'where clause'
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\janu.codingfork\app\Controllers\Order.php(85): App\Models\CoreModel->getData(Array, 'sales')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->viewOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-15 21:28:17 --> Unknown column 'status' in 'where clause'
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\janu.codingfork\app\Controllers\Order.php(85): App\Models\CoreModel->getData(Array, 'sales')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Order->viewOrder()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}

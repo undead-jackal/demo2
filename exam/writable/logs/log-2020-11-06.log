@@ -1,0 +1,11 @@
+CRITICAL - 2020-11-06 06:36:01 --> Unable to connect to the database.
+#0 E:\janu.codingfork - Copy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\janu.codingfork - Copy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `exam`.`...', Array, false)
+#2 E:\janu.codingfork - Copy\app\Models\CoreModel.php(44): CodeIgniter\Database\BaseBuilder->get(5, 0)
+#3 E:\janu.codingfork - Copy\app\Controllers\admin\ExamCreator.php(135): App\Models\CoreModel->getData(Array, 'exam')
+#4 E:\janu.codingfork - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\admin\ExamCreator->viewExamsAdmin()
+#5 E:\janu.codingfork - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ExamCreator))
+#6 E:\janu.codingfork - Copy\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\janu.codingfork - Copy\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\janu.codingfork - Copy\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#9 {main}

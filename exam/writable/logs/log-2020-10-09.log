@@ -1,0 +1,12 @@
+CRITICAL - 2020-10-09 17:06:55 --> Undefined variable: footer
+#0 E:\janu.codingfork\app\Views\baselayout\footer.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\janu.codingf...', 4, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/foot...', Array, true)
+#3 E:\janu.codingfork\app\Controllers\BaseController.php(56): view('baselayout/foot...', Array)
+#4 E:\janu.codingfork\app\Controllers\Home.php(7): App\Controllers\BaseController->loadLayout('content/home/ho...', Array, true)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#10 {main}

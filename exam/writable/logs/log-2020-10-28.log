@@ -1,0 +1,151 @@
+CRITICAL - 2020-10-28 01:04:50 --> Undefined offset: 0
+#0 E:\janu.codingfork\app\Controllers\Ordering\Cart.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\janu.codingf...', 24, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ordering\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ordering\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-28 01:05:13 --> Undefined offset: 0
+#0 E:\janu.codingfork\app\Controllers\Ordering\Cart.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\janu.codingf...', 24, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ordering\Cart->addCart()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ordering\Cart))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-28 01:11:52 --> Undefined offset: 0
+#0 E:\janu.codingfork\app\Controllers\Ordering\Order.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\janu.codingf...', 32, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ordering\Order->singleProductR('(:num)')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ordering\Order))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-28 01:14:43 --> Undefined variable: products
+#0 E:\janu.codingfork\app\Views\content\order\single-product.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\janu.codingf...', 5, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/order/s...', Array, true)
+#3 E:\janu.codingfork\app\Controllers\BaseController.php(56): view('content/order/s...', Array)
+#4 E:\janu.codingfork\app\Controllers\Ordering\Order.php(33): App\Controllers\BaseController->loadLayout('content/order/s...', Array, true)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ordering\Order->singleProductR('8')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ordering\Order))
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#10 {main}
+CRITICAL - 2020-10-28 07:30:05 --> Undefined variable: id
+#0 E:\janu.codingfork\app\Controllers\Ordering\Order.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\janu.codingf...', 23, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ordering\Order->checkout()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ordering\Order))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-28 07:30:59 --> Unknown column 'cart.user.id' in 'on clause'
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\janu.codingfork\app\Models\CoreModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\janu.codingfork\app\Controllers\Ordering\Order.php(30): App\Models\CoreModel->getData(Array, 'user')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ordering\Order->checkout()
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ordering\Order))
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#11 {main}
+CRITICAL - 2020-10-28 07:31:17 --> Undefined offset: 0
+#0 E:\janu.codingfork\app\Controllers\Ordering\Order.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\janu.codingf...', 30, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ordering\Order->checkout()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ordering\Order))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-28 08:58:14 --> include(modal.php): failed to open stream: No such file or directory
+#0 E:\janu.codingfork\app\Views\custom\nav.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modal.p...', 'E:\\janu.codingf...', 44, Array)
+#1 E:\janu.codingfork\app\Views\custom\nav.php(44): include()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('custom/nav.php', Array, true)
+#4 E:\janu.codingfork\app\Views\content\order\my_order.php(1): view('custom/nav.php')
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/order/m...', Array, true)
+#7 E:\janu.codingfork\app\Controllers\BaseController.php(56): view('content/order/m...', Array)
+#8 E:\janu.codingfork\app\Controllers\Ordering\Order.php(35): App\Controllers\BaseController->loadLayout('content/order/m...', Array, true)
+#9 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Ordering\Order->order()
+#10 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ordering\Order))
+#11 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#14 {main}
+CRITICAL - 2020-10-28 17:20:22 --> Undefined variable: data
+#0 E:\janu.codingfork\app\Views\content\exam\addExam.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\janu.codingf...', 27, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/exam/ad...', Array, true)
+#3 E:\janu.codingfork\app\Controllers\BaseController.php(66): view('content/exam/ad...', Array)
+#4 E:\janu.codingfork\app\Controllers\demo3\ExamCreator.php(19): App\Controllers\BaseController->loadLayout('content/exam/ad...', Array)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\demo3\ExamCreator->addExamUrl()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\demo3\ExamCreator))
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#10 {main}
+CRITICAL - 2020-10-28 20:44:03 --> Undefined variable: uri
+#0 E:\janu.codingfork\app\Views\baselayout\sidebar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\janu.codingf...', 15, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('baselayout/side...', Array, true)
+#3 E:\janu.codingfork\app\Controllers\BaseController.php(62): view('baselayout/side...')
+#4 E:\janu.codingfork\app\Controllers\demo4\ExamTaker.php(16): App\Controllers\BaseController->loadLayout('content/examine...', Array)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\demo4\ExamTaker->index()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\demo4\ExamTaker))
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#10 {main}
+CRITICAL - 2020-10-28 21:54:28 --> Invalid file: content/side-nav.php
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/side-na...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/side-na...', Array, true)
+#2 E:\janu.codingfork\app\Views\content\home\home.php(4): view('content/side-na...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/home/ho...', Array, true)
+#5 E:\janu.codingfork\app\Controllers\BaseController.php(56): view('content/home/ho...', Array)
+#6 E:\janu.codingfork\app\Controllers\Home.php(7): App\Controllers\BaseController->loadLayout('content/home/ho...', Array, true)
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#12 {main}
+CRITICAL - 2020-10-28 21:55:17 --> Invalid file: costum/side-nav.php
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('costum/side-nav...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('costum/side-nav...', Array, true)
+#2 E:\janu.codingfork\app\Views\content\home\home.php(4): view('costum/side-nav...')
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\View\View.php(246): include('E:\\janu.codingf...')
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('content/home/ho...', Array, true)
+#5 E:\janu.codingfork\app\Controllers\BaseController.php(56): view('content/home/ho...', Array)
+#6 E:\janu.codingfork\app\Controllers\Home.php(7): App\Controllers\BaseController->loadLayout('content/home/ho...', Array, true)
+#7 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#12 {main}
+CRITICAL - 2020-10-28 22:23:58 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#4 {main}
+CRITICAL - 2020-10-28 22:24:22 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#4 {main}
+CRITICAL - 2020-10-28 22:24:38 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')'
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#4 {main}

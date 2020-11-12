@@ -1,0 +1,76 @@
+CRITICAL - 2020-10-21 16:16:12 --> A non-numeric value encountered
+#0 E:\janu.codingfork\app\Controllers\demo3\ExamCreator.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'E:\\janu.codingf...', 29, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\demo3\ExamCreator->addExam()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\demo3\ExamCreator))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-21 21:21:20 --> Undefined index: offset
+#0 E:\janu.codingfork\app\Models\CoreModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\janu.codingf...', 50, Array)
+#1 E:\janu.codingfork\app\Controllers\demo3\ExamCreator.php(50): App\Models\CoreModel->getData(Array, 'exam')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\demo3\ExamCreator->viewExamsAdmin()
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\demo3\ExamCreator))
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#7 {main}
+CRITICAL - 2020-10-21 21:27:26 --> Undefined variable: params1
+#0 E:\janu.codingfork\app\Controllers\demo3\ExamCreator.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\janu.codingf...', 52, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\demo3\ExamCreator->viewExamsAdmin()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\demo3\ExamCreator))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-21 21:27:58 --> Undefined variable: params1
+#0 E:\janu.codingfork\app\Controllers\demo3\ExamCreator.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\janu.codingf...', 52, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\demo3\ExamCreator->viewExamsAdmin()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\demo3\ExamCreator))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-21 21:28:00 --> Undefined variable: params1
+#0 E:\janu.codingfork\app\Controllers\demo3\ExamCreator.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\janu.codingf...', 52, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\demo3\ExamCreator->viewExamsAdmin()
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\demo3\ExamCreator))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-21 21:48:00 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\janu.codingf...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#9 {main}
+CRITICAL - 2020-10-21 21:55:52 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('demo3/examcreat...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('demo3/examcreat...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-21 21:55:52 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 E:\janu.codingfork\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('demo3/examcreat...')
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('demo3/examcreat...')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
+CRITICAL - 2020-10-21 21:56:13 --> Undefined variable: params1
+#0 E:\janu.codingfork\app\Controllers\demo3\ExamCreator.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\janu.codingf...', 54, Array)
+#1 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\demo3\ExamCreator->viewThisExam('4')
+#2 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\demo3\ExamCreator))
+#3 E:\janu.codingfork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\janu.codingfork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\janu.codingfork\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\janu.codingf...')
+#6 {main}
